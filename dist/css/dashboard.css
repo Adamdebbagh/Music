@@ -1,0 +1,118 @@
+/*------------summary block themes---------- */
+
+/*--summary block primary--*/
+.music-summary-block-primary {
+    background-color: #428bca;
+    color: #fff;
+}
+
+.music-summary-block-primary .summary-footer {
+    background-color: deepskyblue;
+}
+.music-summary-block-primary .summary-footer a {
+    color: #fff;
+}
+
+/*--summary block success--*/
+.music-summary-block-success {
+    background-color: #3c763d;
+    color: #fff;
+}
+.music-summary-block-success .summary-footer {
+    background-color: #008000;
+}
+.music-summary-block-success .summary-footer a {
+    color: #fff;
+}
+
+
+/*--summary block info--*/
+.music-summary-block-info {
+    background-color: #31708f;
+    color: #fff;
+}
+.music-summary-block-info .summary-footer {
+    background-color: teal;
+}
+.music-summary-block-info .summary-footer a {
+    color: #fff;
+}
+
+
+/*--summary block danger--*/
+.music-summary-block-danger {
+    background-color: #a94442;
+    color: #fff;
+}
+.music-summary-block-danger .summary-footer {
+    background-color: darkred;
+}
+.music-summary-block-danger .summary-footer a {
+    color: #fff;
+}
+/*------------summary block structure---------- */
+.music-summary-block {
+    position:relative;
+    width:100%;
+    margin: .3em;
+    padding: 1em;
+    min-height: 15em;
+
+}
+.music-summary-block .summary-background i,
+.music-summary-block .summary-background div {
+    margin-left: -0.4em;
+    margin-top: .1em;
+    font-size: 8em;
+    opacity: .3;
+}
+
+.music-summary-block .summary-body {
+    position: absolute;
+    top: 1.3em;
+    right: 0.8em;
+
+}
+.music-summary-block .summary-body .summary-line-1 {
+    text-align: right;
+    font-size: xx-large;
+}
+.music-summary-block .summary-body .summary-line-2 {
+    text-align: right;
+    font-size: medium;
+}
+
+.music-summary-block .summary-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.music-summary-block .summary-footer a {
+    text-decoration: none;
+}
+
+.music-summary-block .summary-footer:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
