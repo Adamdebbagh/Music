@@ -1,11 +1,11 @@
 /*------------summary block themes---------- */
+/*------------------------------------------*/
 
 /*--summary block primary--*/
 .music-summary-block-primary {
     background-color: #428bca;
     color: #fff;
 }
-
 .music-summary-block-primary .summary-footer {
     background-color: deepskyblue;
 }
@@ -25,7 +25,6 @@
     color: #fff;
 }
 
-
 /*--summary block info--*/
 .music-summary-block-info {
     background-color: #31708f;
@@ -38,7 +37,6 @@
     color: #fff;
 }
 
-
 /*--summary block danger--*/
 .music-summary-block-danger {
     background-color: #a94442;
@@ -50,14 +48,62 @@
 .music-summary-block-danger .summary-footer a {
     color: #fff;
 }
-/*------------summary block structure---------- */
+
+/*------------Readme Boxes Themes------------*/
+/*------------------------------------------*/
+
+/*--Readme Boxes primary--*/
+.music-readme-box-primary {
+    border: thin solid #428bca;
+}
+.music-readme-box-primary .readme-header {
+    background-color: #428bca;
+}
+.music-readme-box-primary .readme-footer a {
+    color: #428bca;
+}
+/*--Readme Boxes success--*/
+.music-readme-box-success {
+    border: thin solid #3c763d;
+}
+.music-readme-box-success .readme-header {
+    background-color: #3c763d;
+}
+.music-readme-box-success .readme-footer a {
+    color: #008000;
+}
+/*--Readme Boxes info--*/
+.music-readme-box-info{
+    border: thin solid #31708f;
+}
+.music-readme-box-info .readme-header {
+    background-color: #31708f;
+}
+.music-readme-box-info .readme-footer a {
+    color: #428bca;
+}
+/*--Readme Boxes danger--*/
+.music-readme-box-danger {
+    border: thin solid #a94442;
+}
+.music-readme-box-danger .readme-header {
+    background-color: #a94442;
+}
+.music-readme-box-danger .readme-footer a {
+    color: #ff3030;
+}
+
+
+/*------------summary block structure--------*/
+/*------------------------------------------*/
+
 .music-summary-block {
     position:relative;
     width:100%;
     margin: .3em;
+    margin-bottom: 1.5em;
     padding: 1em;
     min-height: 15em;
-
 }
 .music-summary-block .summary-background i,
 .music-summary-block .summary-background div {
@@ -66,7 +112,6 @@
     font-size: 8em;
     opacity: .3;
 }
-
 .music-summary-block .summary-body {
     position: absolute;
     top: 1.3em;
@@ -81,7 +126,6 @@
     text-align: right;
     font-size: medium;
 }
-
 .music-summary-block .summary-footer {
     position: absolute;
     bottom: 0;
@@ -92,23 +136,66 @@
     text-transform: uppercase;
     font-size: small;
 }
-
 .music-summary-block .summary-footer a {
     text-decoration: none;
 }
-
 .music-summary-block .summary-footer:hover {
     opacity: .8;
     cursor: pointer;
 }
 
 
+/*------------Readme Boxes structure---------*/
+/*------------------------------------------*/
 
+.music-readme-box {
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+    padding: 1em;
+    margin: 0.3em 0.3em 1.5em;
+    height: 16em;
+    opacity: .9;
+}
+.music-readme-box:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.music-readme-box .readme-header {
+    margin: -1em;
+    padding: .5em;
+    text-align: center;
+}
+.music-readme-box .readme-header i,
+.music-readme-box .readme-header div {
+    font-size: xx-large;
+    color: #fff;
+}
 
+.music-readme-box .readme-body {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 
-
-
-
+.music-readme-box .readme-body h1 {
+    font-size: x-large;
+}
+.music-readme-box .readme-body p {
+    font-size: medium;
+}
+.music-readme-box .readme-footer {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: .5em;
+    font-size: small;
+}
+.music-readme-box .readme-footer a {
+    text-decoration: none;
+}
 
 
 
