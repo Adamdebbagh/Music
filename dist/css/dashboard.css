@@ -151,7 +151,6 @@
 .music-readme-box {
     position: relative;
     width: 100%;
-    overflow-y: auto;
     padding: 1em;
     margin: 0.3em 0.3em 1.5em;
     height: 16em;
@@ -171,13 +170,11 @@
     font-size: xx-large;
     color: #fff;
 }
-
 .music-readme-box .readme-body {
     position: relative;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
 .music-readme-box .readme-body h1 {
     font-size: x-large;
 }
@@ -196,6 +193,29 @@
 .music-readme-box .readme-footer a {
     text-decoration: none;
 }
+
+
+/*------------CheckBoxes structure---------*/
+/*------------------------------------------*/
+
+.checkbox .btn,
+.checkbox-inline .btn {
+    padding-left:  2em;
+    min-width: 7em;
+}
+.checkbox-inline {
+    margin-left: -1.5em;
+}
+.checkbox label,
+.checkbox-inline label {
+    text-align: left;
+}
+
+
+
+
+
+
 
 
 
